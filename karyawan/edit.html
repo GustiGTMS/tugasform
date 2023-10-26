@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <style>
+        nav li a:hover{
+            background-color: rgb(87, 0, 248);
+        }
+        header{
+            background-color: rgb(0, 255, 21);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        article{
+            padding: 20px;
+            width: 100%;
+            background-color: white;
+        }
+        footer{
+            background-color: rgb(0, 255, 21);
+            padding: 10px;
+            text-align: center;
+            color: whitesmoke;
+        }
+        nav{
+            background-color: rgb(14, 193, 233);
+            padding: 10px;
+            color: yellow;
+        }
+        nav ul{
+            list-style-type: none;
+            overflow: hidden;
+        }
+        nav li{
+            float: left;
+        }
+        nav li a {
+            display: block;
+            text-align: center;
+            color: black;
+            padding: 16px;
+            text-decoration: none;
+            transition: ease-in-out;
+        }
+        </style>
+        <body>
+            <header>
+                <h1>Edit Data Karyawan</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li style="background-color: antiquewhite; margin: 3px;"><a href="../index.html">Beranda</a></li>
+                    <li style="background-color: antiquewhite; margin: 3px;"><a href="index.html">Karyawan</a></li>
+                    <li style="background-color: antiquewhite; margin: 3px;"><a href="/bagian/bagian.html">Bagian</a></li>
+                    <li style="background-color: antiquewhite; margin: 3px;"><a href="/penggajian/index.html">Penggajian</a></li>
+                </ul>
+            </nav>
+            <section>
+                <form action="">
+                    <fieldset>
+                        <legend>Edit Karyawan</legend>
+                        <p>
+                            <label for="">NIK :</label>
+                            <input type="number" value="0001">
+                        </p>
+                        <p>
+                            <label for="">Nama :</label>
+                            <input type="text"
+                            value="Gusti">
+                        </p>
+                        <p>
+                            <label for="">Tanggal Mulai :</label>
+                            <input type="date" value="2023-10-26">
+                        </p>
+                        <p>
+                            <label for="">Gaji Pokok :</label>
+                            <input type="number"
+                            value="3200000">
+                        </p>
+                        <p>
+                            <label for="">Status Karyawan :</label>
+                           <select name="" id="">
+                            <option value="TETAP">TETAP</option>
+                            <option value="KONTRAK">KONTRAK</option>
+                            <option value="MAGANG">MAGANG</option>
+                           </select>
+                        </p>
+                        <p>
+                            <button style="background-color: green;">Edit</button>
+                        </p>
+                    </fieldset>
+                </form>
+            </section>
+            <footer>
+                <p>Powered by SMK NEGRI 4 BANJARMASIN</p>
+            </footer>
+        </body>
+    </head>
+</html>
